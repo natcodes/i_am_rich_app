@@ -18,19 +18,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fu-F4-4jj">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="I Am Rich" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Fu-F4-4jj">
                                 <rect key="frame" x="108" y="100" width="160" height="50"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="nUb-Kt-Fjb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="diamond" translatesAutoresizingMaskIntoConstraints="NO" id="nUb-Kt-Fjb">
                                 <rect key="frame" x="53" y="250" width="270" height="270"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.20392156862745098" green="0.28627450980392155" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nUb-Kt-Fjb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="53" id="EDl-bB-jqd"/>
+                            <constraint firstItem="7Fu-F4-4jj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="EHN-Zn-t2b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Fu-F4-4jj" secondAttribute="trailing" constant="107" id="Hsx-gA-juh"/>
+                            <constraint firstItem="7Fu-F4-4jj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="108" id="Pmj-vT-ZHd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7Fu-F4-4jj" secondAttribute="trailing" constant="107" id="RHe-Dc-NKQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nUb-Kt-Fjb" secondAttribute="trailing" constant="52" id="aMI-PF-wh8"/>
+                            <constraint firstAttribute="bottom" secondItem="7Fu-F4-4jj" secondAttribute="bottom" constant="517" id="eqx-BH-fkN"/>
+                            <constraint firstItem="nUb-Kt-Fjb" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="250" id="sDt-qo-EzG"/>
+                            <constraint firstItem="7Fu-F4-4jj" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="100" id="wm8-et-Hgc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="nUb-Kt-Fjb" secondAttribute="bottom" constant="147" id="xzL-HD-YJt"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
